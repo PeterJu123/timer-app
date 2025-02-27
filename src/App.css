@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+#app-container{
+    width:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#app-title{
+    text-align: center;
+    font-size: 3em;
+}
+
+#break-session-container{
+    display: flex;
+    justify-content: space-between;
+    width:65%;
+    margin:2em auto 0;
+    
+}
+
+.arrow-btns-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#session-length, #break-length{
+    font-size: 2em;
+}
+
+#timer-label{
+    font-size: 2em;
+}
+
+#time-left{
+    margin-top:1px;
+    font-size: 5em;
+}
+
+#timer-container{
+    border: 1px solid;
+    text-align: center;
+    width:40%;
+    height:30vh;
+    margin:2em auto;
+    border-radius: 10%;
+    padding:1.5em;
+}
+
+#buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin:0 1em;
+}
