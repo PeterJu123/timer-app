@@ -160,7 +160,7 @@ class myTimer extends React.Component{
             <button className="btn btn-secondary" id="reset" onClick={this.resetHandler}><FontAwesomeIcon icon={faRotateRight} /></button>
           </div>
         </div>
-        <audio id="beep" src="/beep_2s.wav"></audio>
+        <audio id="beep" src="/timer-app/beep_2s.wav"></audio>
       </>
     )
   }
